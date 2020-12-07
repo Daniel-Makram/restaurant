@@ -1,29 +1,26 @@
 /* NAV BARRE */
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    margin-left: 4%;
+    
+}
 
 .navBar {
     background-color: black;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
    
 }
-
-/* BETALIAN A CHANGER */
-.navbar-brand {
-    width: 300px;
-    margin-left: 2%;
-    text-decoration: none;
-    color: white;
-}  
-/* ------------------------- */
-
-
 .menuNav{
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 .menuNav a{
@@ -34,14 +31,20 @@
 .menuNav li{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    border-radius: 3%;  
 }
+
+/* .menuNav li:hover{
+    background-color: #EBD133;
+    transition-duration: 1s;
+} */
 
 /* END NAV BARRE */
 
 
 /* PRESENTATION */
+
 .presentation{
     background-color: black;
     display: flex;
@@ -55,7 +58,6 @@
     height: 70%;
     padding-bottom: 3%;
     padding-left: 2%;
-    
 }
 
 .img1{
