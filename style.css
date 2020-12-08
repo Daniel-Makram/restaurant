@@ -22,7 +22,7 @@ h1 {
     color: white;
     text-shadow: black;
     background-color: black;
-    /* filter: blur(4px);  */
+    /* filter: blur(4px); */
     display: flex;
     justify-content: center;
     text-align: center;
