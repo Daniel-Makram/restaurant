@@ -1,17 +1,7 @@
-/* body
-{
-    background-image: url(pates.jpeg);
-    background-repeat:no-repeat ;
-    background-attachment: fixed;
-    justify-content: center;
-    display: flex;
-    color: white;
-    text-shadow: 3px 3px 5px black;
-    width: 100%;
-} */
-.hours{
+.hours {
     background-color: black;
 }
+
 h1 {
     text-align: center;
     padding: 1%;
@@ -20,7 +10,7 @@ h1 {
 
 }
 
-.horaire{
+.horaire {
     background-image: url(ghetti.jpg);
     background-repeat: no-repeat;
     border: solid white;
@@ -28,12 +18,12 @@ h1 {
 
 }
 
-.container{
-    color:  white;
+.container {
+    color: white;
     text-shadow: black;
-    background-color: black; 
+    background-color: black;
     /* filter: blur(4px);  */
-    display : flex;
+    display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 5%;
@@ -42,30 +32,30 @@ h1 {
 }
 
 
-img{
+img {
     width: 30px;
     color: white;
 }
 
-.infos{
+.infos {
     width: 35px;
-    
+
 }
 
-.map{
+.map {
     margin-left: 30%;
 }
 
-.days{
+.days {
     color: solid white;
     font-size: 35px;
 }
 
-.titre{
+.titre {
     font-size: 60px;
     margin-left: 140px;
 }
 
-.up{
+.up {
     padding-top: 15%;
 }
