@@ -1,5 +1,9 @@
 
 /*------------------------ NAV BARRE ----------------------*/
+main{
+    padding-top: 16vh;
+}
+
 .logo {
     display: flex;
     justify-content: flex-start;
@@ -8,14 +12,14 @@
     margin-left: 4%;
 }
 
-.navBar {
+/* .navBar {
     background-color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+} */
 
-/* .navBar {
+.navBar {
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -23,7 +27,7 @@
     position: fixed; 
     width: 100%; 
     transition: top 0.3s;
-} */
+}
 
 .navBar img:hover{
     cursor: pointer;
@@ -58,9 +62,6 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    height: 
-
 }
 
 .photoPresentation {
