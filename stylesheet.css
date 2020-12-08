@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+header{
+    height:10vh;
+    background-color: black;
+    color: wheat;
+    margin: 0;
+}
+.searchbar__container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.main__container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.main__content--list{
+    width:75vw;
+}
+.main__content--list ul{
+    list-style: none;
+}
+.order__container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.order--timer{
+    align-self: center;
+}
+.order__payment__container{
+    display: flex;
+    flex-flow:row nowrap ;
+    justify-content: space-between;
+}
