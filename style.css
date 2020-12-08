@@ -21,6 +21,7 @@ main{
     z-index: 1;
 }
 
+
 .navBar img:hover{
     cursor: pointer;
 }
@@ -182,7 +183,7 @@ img {
 }
 
 .map {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .days {
