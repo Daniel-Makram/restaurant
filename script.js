@@ -70,4 +70,3 @@ for (let i = 0; i < inputModif.length; i++) {
     var to = d.getElementsByTagName('script')[0];
     to.parentNode.insertBefore(s, to);
 })();
-
