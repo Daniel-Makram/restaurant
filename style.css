@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     padding: 1%;
     color: white;
-    text-shadow: 3px 3px 5px #82C91E;
+    text-shadow: 3px 3px 6px white;
 
 }
 
@@ -25,16 +25,16 @@ h1 {
     background-repeat: no-repeat;
     border: solid white;
     border-radius: 5%;
+
 }
 
 .container{
-    color: white;
+    color:  white;
     text-shadow: black;
     background-color: black; 
-    /*background-repeat:no-repeat;  */
     /* filter: blur(4px);  */
     display : flex;
-    justify-content: left;
+    justify-content: center;
     text-align: center;
     margin-top: 5%;
     font-size: 25px;
@@ -49,16 +49,23 @@ img{
 
 .infos{
     width: 35px;
+    
 }
 
-#dep{
-    display: flex;
-    align-items: center;
-    margin-left: 5%;
-    
+.map{
+    margin-left: 30%;
 }
 
 .days{
     color: solid white;
     font-size: 35px;
+}
+
+.titre{
+    font-size: 60px;
+    margin-left: 140px;
+}
+
+.up{
+    padding-top: 15%;
 }
