@@ -1,3 +1,91 @@
+
+main{
+    padding-top: 16vh;
+}
+
+/*------------------------ NAV BARRE ----------------------*/
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    margin-left: 4%;
+}
+
+.navBar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed; 
+    width: 100%; 
+    transition: top 0.3s;
+}
+
+.navBar img:hover{
+    cursor: pointer;
+}
+
+.menuNav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.menuNav a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuNav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3%;
+}
+
+/* -----------------------END NAV BARRE---------------------- */
+
+
+/* PRESENTATION */
+
+.presentation {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.photoPresentation {
+    width: 70%;
+    height: 70%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.textPresenation {
+    display: flex;
+    color: white;
+    width: 70%;
+    padding-left: 10px;
+    justify-content: center;
+    margin-top: 15vh;
+
+}
+
+.quiSommesNous {
+    width: 50%;
+}
+
+/* --------------------FIN PRESENTATION --------------- */
 /* -------------------MENU-------------------------  */
 .row {
     padding: 8%;
@@ -57,4 +145,96 @@ top: 50%;
   } 
 
   /* --------------------FIN MENU ---------------- */
- 
+
+/* --------------------FORMULAIRE------------------------ */
+
+.contact {
+    height: 50vh;
+}
+
+.contact h2{
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.formulaire {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+}
+
+.grosseDiv {
+    display: flex;
+}
+
+.label{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: black;
+    transition: .5s;
+}
+
+.modifLabel{
+  top: -25px;
+  left: 0;
+  color: rgb(133, 133, 133);
+  font-size: 15px;
+  position: absolute;
+}
+
+.user-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 40vh;
+    margin-bottom: 15vh;
+}
+
+.user-box input{
+    max-width: 27.5vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#name{
+    width: 21vw;
+}
+
+#email{
+    width: 21vw;
+}
+
+#textarea{
+padding-bottom: 15vh;
+max-width: 61vw;
+outline: none;
+border: none;
+border-bottom: 1px solid black;
+
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 350px;
+    width: 90px;
+    padding-left: 17px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button:active{
+    outline: none;
+}
+
