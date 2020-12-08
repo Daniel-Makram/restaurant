@@ -22,7 +22,6 @@ main{
     z-index: 1;
 }
 
-
 .navBar img:hover{
     cursor: pointer;
 }
@@ -46,9 +45,8 @@ main{
     justify-content: space-between;
     border-radius: 3%;
 }
-/* -----------------------END NAV BARRE---------------------- */
 
-/* PRESENTATION */
+/* ------------------------PRESENTATION------------------------ */
 
 .presentation {
     background-color: black;
@@ -76,14 +74,21 @@ main{
     padding-left: 10px;
     justify-content: center;
     margin-top: 15vh;
-
 }
 
 .quiSommesNous {
     width: 50%;
 }
-/* --------------------FIN PRESENTATION --------------- */
+
 /* -------------------MENU-------------------------  */
+h1{
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 16vh;
+}
+
 .row {
     padding: 8%;
     
@@ -95,26 +100,25 @@ main{
     /* width: 50%; */
 } 
 
-
 .card:hover .image {
     opacity: 0.3;
   }
   
-  .card:hover .middle {
+.card:hover .middle {
     opacity: 1;
     
-  }
+}
 
-  .image {
+.image {
     opacity: 1;
     display: block;
     width: 100%;
     /* height: auto; */
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+}
 
-  .middle {
+.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -128,18 +132,18 @@ main{
     -ms-transform: translate(-50%, -50%); */
     text-align: center;
     background-color: #5c2d2d60;
-  }
+}
 
-  .text {
-position: absolute;
-color: white;
-top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  } 
+.text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
 
   /* -------------------HORAIRE & LOCALISATION ---------------- */
 
@@ -180,7 +184,6 @@ img {
 
 .infos {
     width: 35px;
-
 }
 
 .map {
@@ -196,7 +199,7 @@ img {
 }
 
 .up {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 
@@ -214,6 +217,7 @@ img {
     justify-content: center;
     margin-bottom: 5%;
     margin-top: 3%;
+    padding-top: 16vh;
 }
 
 .formulaire {
@@ -267,12 +271,11 @@ img {
 }
 
 #textarea{
-padding-bottom: 15vh;
-max-width: 61vw;
-outline: none;
-border: none;
-border-bottom: 1px solid black;
-
+    padding-bottom: 15vh;
+    max-width: 61vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 button{
