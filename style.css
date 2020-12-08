@@ -1,3 +1,4 @@
+
 /*------------------------ NAV BARRE ----------------------*/
 .logo {
     display: flex;
@@ -5,7 +6,6 @@
     width: 100px;
     height: 100px;
     margin-left: 4%;
-
 }
 
 .navBar {
@@ -13,7 +13,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
 
+/* .navBar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed; 
+    width: 100%; 
+    transition: top 0.3s;
+} */
+
+.navBar img:hover{
+    cursor: pointer;
 }
 
 .menuNav {
@@ -45,7 +58,8 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-
+    margin-top: 5%;
+    height: 
 
 }
 
@@ -54,6 +68,7 @@
     height: 70%;
     padding-bottom: 3%;
     padding-left: 2%;
+    margin-top: 2%;
 }
 
 .img1 {
@@ -83,12 +98,16 @@
     height: 50vh;
 }
 
-h2 {
+.contact h2{
     font-size: 45px;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
+
 
 .formulaire {
     display: flex;
@@ -97,35 +116,73 @@ h2 {
     flex-flow: column wrap;
 }
 
-.user-box{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .grosseDiv {
     display: flex;
-
 }
 
 .label{
     position: absolute;
     top:0;
     left: 0;
-    padding: 3px 0;
-    color: red;
+    color: black;
+    transition: .5s;
 }
 
 .modifLabel{
-  top: -20px;
+  top: -25px;
   left: 0;
-  color: #03e9f4;
-  font-size: 12px;
+  color: rgb(133, 133, 133);
+  font-size: 15px;
   position: absolute;
+}
+
+.user-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 40vh;
+    margin-bottom: 15vh;
 }
 
 .user-box input{
     max-width: 27.5vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#name{
+    width: 21vw;
+}
+
+#email{
+    width: 21vw;
+}
+
+#textarea{
+padding-bottom: 15vh;
+max-width: 61vw;
+outline: none;
+border: none;
+border-bottom: 1px solid black;
+
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 350px;
+    width: 90px;
+    padding-left: 17px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button:active{
+    outline: none;
 }
 
 /* .user-box input{

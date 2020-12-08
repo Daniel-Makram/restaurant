@@ -1,59 +1,44 @@
-const contact = document.querySelector("body > section > form > div")
+const logo = document.querySelector('.logo')
 
-
-const formulaire = [{
-        name: 'Nom',
-        regex: [/^[A-Z][A-Za-z\é\è\ê\ë\-]+$/gi],
-        placeholder: "Nom",
-        type: 'text',
-    },
-    {
-        name: 'Email',
-        regex: [/^[\w-.]+@([\w-]+.)+[\w-]{2,4}$/],
-        placeholder: "adresse@gmail.com",
-        type: 'email',
-    },
-    {
-        name: 'Message',
-        placeholder: 'Ton message',
-        type: 'text',
-    },
-]
-
-
-
-
+logo.addEventListener('click', function(){
+    let top = document.querySelector('body');
+    window.scrollTo(0, top.offsetTop)
+})
 
 
 let inputModif = document.getElementsByClassName("input");
 let labelModif = document.getElementsByClassName("label");
+const patternName = /([a-z]+(-[ ]*)?)/gi
+const patternEmail = /^[\w-.]+@([\w-]+.)+[\w-]{2,4}$/
+
+
+const patternList = [patternName, patternEmail, patternName]
+
+for (let i = 0; i < inputModif.length; i++) {
+    inputModif[i].addEventListener('focusin', function () {
+        labelModif[i].classList.add('modifLabel')
+        if (this.value == true) {
+            labelModif[i].classList.toggle("modifLabel")
+        }
+    })
+}
+for (let i = 0; i < inputModif.length; i++) {
+    inputModif[i].addEventListener('focusout', function () {
+        let inputValue = this.value || this.innerHTML
+        if (inputValue == false) {
+            labelModif[i].classList.toggle("modifLabel")
+        }
+        if(inputValue.match(patternList[i])){
+            this.style.borderColor="green"
+        }else if(inputValue == ''){
+            this.style.borderColor="black"
+        }
+        else{
+            this.style.borderColor="red"
+        }
+    })
+}
 
 
 
-inputModif[0].addEventListener('focusin', function() {
-    labelModif[0].classList.add('modifLabel')
-    if(this.value == true){
-    labelModif[0].classList.toggle("modifLabel")}
-})
-inputModif[1].addEventListener('focusin', function() {
-    labelModif[1].classList.add('modifLabel')
-    if(this.value == true){
-    labelModif[1].classList.toggle("modifLabel")}
-})
-inputModif[2].addEventListener('focusin', function() {
-    labelModif[2].classList.add('modifLabel')
-    if(this.value == true){
-    labelModif[2].classList.toggle("modifLabel")}
-})
-inputModif[0].addEventListener('focusout', function() {
-    if(this.value == false){
-    labelModif[0].classList.toggle("modifLabel")}
-})
-inputModif[1].addEventListener('focusout', function() {
-    if(this.value == false){
-    labelModif[1].classList.toggle("modifLabel")}
-})
-inputModif[2].addEventListener('focusout', function() {
-    if(this.value == false){
-    labelModif[2].classList.toggle("modifLabel")}
-})
+
