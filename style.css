@@ -21,6 +21,7 @@ main{
     position: fixed; 
     width: 100%; 
     transition: top 0.3s;
+    z-index: 1;
 }
 
 .navBar img:hover{
