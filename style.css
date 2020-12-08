@@ -5,8 +5,53 @@
 
 .card {
     margin: 3%;
-}
+    position: relative;
+    /* width: 50%; */
+} 
 
-#popup {
-    display:none;
+
+.card:hover .image {
+    opacity: 0.3;
   }
+  
+  .card:hover .middle {
+    opacity: 1;
+    
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100% ;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+    background-color: #5c2d2d60;
+  }
+
+  .text {
+position: absolute;
+color: white;
+top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  } 
+ 
