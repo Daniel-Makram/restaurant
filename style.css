@@ -1,8 +1,8 @@
-
-/*------------------------ NAV BARRE ----------------------*/
 main{
     padding-top: 16vh;
 }
+
+/*------------------------ NAV BARRE ----------------------*/
 
 .logo {
     display: flex;
@@ -11,13 +11,6 @@ main{
     height: 100px;
     margin-left: 4%;
 }
-
-/* .navBar {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
 
 .navBar {
     background-color: black;
@@ -109,7 +102,6 @@ main{
     margin-top: 3%;
 }
 
-
 .formulaire {
     display: flex;
     /* flex-direction: column;
@@ -185,7 +177,3 @@ button{
 button:active{
     outline: none;
 }
-
-/* .user-box input{
-    border: none;
-} */

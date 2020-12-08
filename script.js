@@ -1,3 +1,4 @@
+// -------------------- LOGO PAGE D'ACCUEIL------------
 const logo = document.querySelector('.logo')
 
 logo.addEventListener('click', function(){
@@ -5,7 +6,7 @@ logo.addEventListener('click', function(){
     window.scrollTo(0, top.offsetTop)
 })
 
-
+// ----------------------FORMULAIRE ---------------------
 let inputModif = document.getElementsByClassName("input");
 let labelModif = document.getElementsByClassName("label");
 const patternName = /([a-z]+(-[ ]*)?)/gi
@@ -39,6 +40,4 @@ for (let i = 0; i < inputModif.length; i++) {
     })
 }
 
-
-
-
+// --------------------FIN FORMULAIRE-------------------------
