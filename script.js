@@ -91,9 +91,9 @@ function SetTime() {
         })
     }
 
-<<<<<<< HEAD
+
     // --------------------FIN FORMULAIRE------------------------
-=======
+
 // --------------------HORAIRE & LOCALISATION-------------------------
 
 
@@ -123,4 +123,4 @@ function SetTime() {
     var to = d.getElementsByTagName('script')[0];
     to.parentNode.insertBefore(s, to);
 })();
->>>>>>> 6e1a0e2ef85cffbbd8e71b0a208a3ed11da8790e
+
