@@ -1,4 +1,4 @@
-# restaurant
+# :pizza: Restaurant BeTalian :pizza:
 
 * Team project with
 
