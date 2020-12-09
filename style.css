@@ -101,6 +101,61 @@ main {
     width: 50%;
 }
 
+ /* PRESENTATION RESPONSIVENESS  */
+
+ @media screen and (max-width: 800px) {
+
+
+    .presentation {
+        background-image: url("./assets/pictures/presentation.jpeg");
+        background-position: left;
+        background-size: cover;
+        
+    }
+
+    .presentation::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.164);
+    }
+    
+    .textPresenation {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10vh;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+
+   
+    p.quiSommesNous {
+        width: 80%;
+        color: black;
+
+
+    }
+    
+    #carouselExampleFade img {
+        display: none;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+
+.quiSommesNous {
+    width: 50%;
+}
+} 
+
 /* -------------------MENU-------------------------  */
 #Menu {
     padding-top: 14vh;
@@ -136,6 +191,17 @@ h1 {
 }
 
 .card:hover .middle {
+    opacity: 1;
+
+}
+
+/* RESPONSIVE CARDS */
+
+.card:active .image {
+    opacity: 0.3;
+}
+
+.card:active .middle {
     opacity: 1;
 
 }
@@ -253,6 +319,34 @@ img {
     padding-top: 0%;
 }
 
+    /* LOCALISATION & MAP RESPONSIVENESS */
+
+    @media screen and (max-width: 800px) {
+
+        .contenaire {
+    display: flex;
+    flex-direction: column;
+        }
+    .horaire {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .map {
+        margin-left: 0;  
+    }
+    
+    .up {
+      align-self: center;  
+      width : 80%;
+      height: 10%;
+      margin-top: 20px;
+    }
+    
+        } 
+    
+    
 
 /* --------------------FORMULAIRE------------------------ */
 
@@ -342,6 +436,57 @@ button:active {
     outline: none;
 }
 
+/* FORMULAIRE RESPONSIVE  */
+
+@media screen and (max-width: 800px) {
+
+   
+
+    .grosseDiv{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 30px; 
+       
+    }
+    
+    .contact h2 {
+        padding-top: 5px;
+    }
+    
+    #name {
+        margin-bottom: 30px; 
+    }
+    
+    .user-box  {
+        align-self: center;
+        margin: 0;
+        
+    }
+    #messageLabel {
+        margin-left: 0;
+        width: 23%;
+    }
+    
+    #textarea {
+        margin-bottom: 30px;
+    }
+    
+    .input {
+        align-self: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    button {
+        margin: 0;
+        
+        
+    }
+        }
+    
+    
 /* ------------------------FOOTER---------------- */
 
 
