@@ -217,10 +217,6 @@ img {
 
 /* --------------------FORMULAIRE------------------------ */
 
-.contact {
-    height: 50vh;
-}
-
 .contact h2{
     font-size: 45px;
     display: flex;
@@ -327,5 +323,6 @@ footer a{
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color:#EBD133
+  color:#EBD133;
 }
+
