@@ -100,7 +100,7 @@ function SetTime() {
 (function () {
     var setting = {
         "height": 400,
-        "width": 650,
+        "width": 500,
         "zoom": 17,
         "queryString": "Cantersteen 10, 1000 Brussels, Belgique",
         "place_id": "ChIJHacLzn_Ew0cRsNN0o2hHYy8",

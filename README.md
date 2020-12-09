@@ -37,7 +37,7 @@ Putting our knowledge and cohesion into practice through teamwork.
 
 
 ## Overview 
-[![little overview]()]() 
+[![little overview]()](https://elisemlbr.github.io/restaurant/) 
 
 ### Original instruction
 

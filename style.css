@@ -1,7 +1,12 @@
-
-main{
+main {
     padding-top: 16vh;
+
 }
+
+* {
+    font-family: 'Old Standard TT', serif;
+}
+
 /*------------------------ NAV BARRE ----------------------*/
 .logo {
     display: flex;
@@ -16,13 +21,13 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: fixed; 
-    width: 100%; 
+    position: fixed;
+    width: 100%;
     transition: top 0.3s;
     z-index: 1;
 }
 
-.navBar img:hover{
+.navBar img:hover {
     cursor: pointer;
 }
 
@@ -37,6 +42,7 @@ main{
 .menuNav a {
     text-decoration: none;
     color: white;
+    font-family: 'Staatliches', cursive;
 }
 
 .menuNav li {
@@ -46,7 +52,7 @@ main{
     border-radius: 3%;
 }
 
-<<<<<<< HEAD
+
 .open{
    display: flex;
    margin-left: 250px;
@@ -58,16 +64,13 @@ main{
 /* -----------------------END NAV BARRE---------------------- */
 
 
-/* PRESENTATION */
-=======
 /* ------------------------PRESENTATION------------------------ */
->>>>>>> 6e1a0e2ef85cffbbd8e71b0a208a3ed11da8790e
 
 .presentation {
     background-color: black;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 #carouselExampleFade {
@@ -76,12 +79,13 @@ main{
     padding-bottom: 3%;
     padding-left: 2%;
     margin-top: 2%;
-    z-index:0;
+    z-index: 0;
 }
- .img1{
+
+.img1 {
     border-radius: 5%;
     width: 100%;
- }
+}
 
 .textPresenation {
     display: flex;
@@ -97,32 +101,42 @@ main{
 }
 
 /* -------------------MENU-------------------------  */
-h1{
-    font-size: 45px;
+#Menu {
+    padding-top: 14vh;
+}
+
+h1 {
+    /* font-size: 45px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 16vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
 }
 
 .row {
-    padding: 8%;
-    
+    padding: 3%;
+}
+
+#rowentree {
+
+    display: flex;
+    justify-content: center;
 }
 
 .card {
     margin: 3%;
     position: relative;
     /* width: 50%; */
-} 
+}
 
 .card:hover .image {
     opacity: 0.3;
-  }
-  
+}
+
 .card:hover .middle {
     opacity: 1;
-    
+
 }
 
 .image {
@@ -140,10 +154,10 @@ h1{
     position: absolute;
     right: 0;
     bottom: 0;
-    top:0;
+    top: 0;
     left: 0;
     height: 100%;
-    width: 100% ;
+    width: 100%;
     /* transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); */
     text-align: center;
@@ -159,9 +173,13 @@ h1{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-} 
+}
 
-  /* -------------------HORAIRE & LOCALISATION ---------------- */
+/* -------------------HORAIRE & LOCALISATION ---------------- */
+
+#geolo {
+    padding-top: 1vh;
+}
 
 .geo {
     text-align: center;
@@ -174,6 +192,8 @@ h1{
     border: solid white;
     border-radius: 5%;
     padding-top: 1%;
+    margin-left: -6%;
+    margin-right: 5%;
 }
 
 .contenaire {
@@ -183,9 +203,9 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
 
 img {
@@ -200,23 +220,26 @@ img {
 
 .map {
     margin-left: 20%;
-    padding-top: 0%; 
-    overflow: hidden; /*modif*/
-    border:solid 8px #FFFFFF; /*modif*/
-    border-radius:15px; /*modif*/
+    padding-top: 0%;
+    overflow: hidden;
+    /*modif*/
+    border: solid 4px #FFFFFF;
+    /*modif*/
+    border-radius: 15px;
+    /*modif*/
 }
 
-.date{
+.date {
     color: solid white;
-    font-style:  italic; 
+    font-style: italic;
 }
 
 .Date {
-    font-style:  italic; 
+    font-style: italic;
 
 }
 
-.days{
+.days {
     font-size: 25px;
 }
 
@@ -226,13 +249,13 @@ img {
 }
 
 .up {
-    padding-top: 0%; 
+    padding-top: 0%;
 }
 
 
 /* --------------------FORMULAIRE------------------------ */
 
-.contact h2{
+.contact h2 {
     font-size: 45px;
     display: flex;
     flex-direction: row;
@@ -254,23 +277,23 @@ img {
     display: flex;
 }
 
-.label{
+.label {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     color: black;
     transition: .5s;
 }
 
-.modifLabel{
-  top: -25px;
-  left: 0;
-  color: rgb(133, 133, 133);
-  font-size: 15px;
-  position: absolute;
+.modifLabel {
+    top: -25px;
+    left: 0;
+    color: rgb(133, 133, 133);
+    font-size: 15px;
+    position: absolute;
 }
 
-.user-box{
+.user-box {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -278,22 +301,22 @@ img {
     margin-bottom: 15vh;
 }
 
-.user-box input{
+.user-box input {
     max-width: 27.5vw;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
 }
 
-#name{
+#name {
     width: 21vw;
 }
 
-#email{
+#email {
     width: 21vw;
 }
 
-#textarea{
+#textarea {
     padding-bottom: 15vh;
     max-width: 61vw;
     outline: none;
@@ -301,7 +324,7 @@ img {
     border-bottom: 1px solid black;
 }
 
-button{
+button {
     display: flex;
     flex-direction: row;
     margin: 30px 0 0 350px;
@@ -314,30 +337,63 @@ button{
     border-bottom: 1px solid black;
 }
 
-button:active{
+button:active {
     outline: none;
 }
 
 /* ------------------------FOOTER---------------- */
 
-footer{
+
+.footer {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 50px;
-    align-items: center;
-    letter-spacing: 1px;
+    height: auto;
+    
+
 }
 
-footer a{
+.copyright {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.icons-social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer a {
     text-decoration: none;
     color: white;
 }
 
 
-a:hover, a:focus, a:active {
-  text-decoration: none;
-  color:#EBD133;
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: #EBD133;
 }
 
+.icons-social i {
+    padding-left: 13px;
+    color: white;
+    transition-duration: 2s;
+    font-size: 3vh;
+    margin-bottom: 1%;
+
+}
+
+.icons-social i:hover {
+    filter: invert (30%);
+    cursor: pointer;
+    transition: transform .2s;
+    -ms-transform: scale(1.50);
+    transform: scale(1.50);
+    color: #EBD133;
+}
