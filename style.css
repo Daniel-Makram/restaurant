@@ -189,11 +189,14 @@ img {
 .map {
     margin-left: 20%;
     padding-top: 2%;
+    overflow: hidden;
+    border:solid 8px #FFFFFF; 
+    border-radius:15px;
 }
 
 .date{
     color: solid white;
-    font-style:  italic; /* modif*/
+    font-style:  italic;
 }
 
 .days {
