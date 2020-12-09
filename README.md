@@ -34,10 +34,12 @@ Putting our knowledge and cohesion into practice through teamwork.
     * Framework (bootstrap)
 * Javascript
     
-
+## Improvement
+* Menu burger
+* Web site fully responsive (nav bar...)
 
 ## Overview 
-[![little overview]()](https://elisemlbr.github.io/restaurant/) 
+[![little overview](Overview.png)](https://elisemlbr.github.io/restaurant/) 
 
 ### Original instruction
 
