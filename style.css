@@ -1,5 +1,6 @@
 main{
     padding-top: 16vh;
+    
 }
 
 /*------------------------ NAV BARRE ----------------------*/
@@ -20,6 +21,7 @@ main{
     position: fixed; 
     width: 100%; 
     transition: top 0.3s;
+    z-index: 1;
 }
 
 .navBar img:hover{
@@ -55,6 +57,7 @@ main{
     background-color: black;
     display: flex;
     flex-direction: row;
+    
 }
 
 #carouselExampleFade {
@@ -63,12 +66,13 @@ main{
     padding-bottom: 3%;
     padding-left: 2%;
     margin-top: 2%;
+    z-index:0;
 }
-
-.carousel-item {
-    width: 100%;
+ .img1{
     border-radius: 5%;
-}
+    width: 100%;
+    
+ }
 
 .textPresenation {
     display: flex;
