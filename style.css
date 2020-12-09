@@ -305,4 +305,25 @@ button:active{
     outline: none;
 }
 
+/* ------------------------FOOTER---------------- */
 
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color:#EBD133
+}
