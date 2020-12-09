@@ -82,15 +82,16 @@ main{
 
 /* -------------------MENU-------------------------  */
 h1{
-    font-size: 45px;
+    /* font-size: 45px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 16vh;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
 }
 
 .row {
-    padding: 8%;
+    padding: 3%;
     
 }
 
