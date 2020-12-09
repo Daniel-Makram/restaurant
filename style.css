@@ -1,8 +1,12 @@
 
 main{
     padding-top: 16vh;
-    
+
 }
+*{
+    font-family: 'Old Standard TT', serif;
+}
+
 /*------------------------ NAV BARRE ----------------------*/
 .logo {
     display: flex;
@@ -38,6 +42,7 @@ main{
 .menuNav a {
     text-decoration: none;
     color: white;
+    font-family: 'Staatliches', cursive;
 }
 
 .menuNav li {
