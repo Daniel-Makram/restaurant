@@ -147,22 +147,17 @@ h1{
 
   /* -------------------HORAIRE & LOCALISATION ---------------- */
 
-.hours {
-    background-color: black;
-}
-
 .geo {
     text-align: center;
     padding: 1%;
     color: white;
-
+    text-decoration: underline white;
 }
 
 .horaire {
     border: solid white;
     border-radius: 5%;
-    padding-top : 1%;
-
+    padding-top: 1%;
 }
 
 .contenaire {
@@ -184,31 +179,38 @@ img {
 
 .infos {
     width: 35px;
+
 }
 
 .map {
     margin-left: 20%;
-    padding-top: 2%;
-    overflow: hidden;
-    border:solid 8px #FFFFFF; 
-    border-radius:15px;
+    padding-top: 0%; 
+    overflow: hidden; /*modif*/
+    border:solid 8px #FFFFFF; /*modif*/
+    border-radius:15px; /*modif*/
 }
 
 .date{
     color: solid white;
-    font-style:  italic;
+    font-style:  italic; 
 }
 
-.days {
+.Date {
+    font-style:  italic; 
+
+}
+
+.days{
     font-size: 25px;
 }
 
 .titre {
     margin-left: 140px;
+    color: solid white;
 }
 
 .up {
-    padding-top: 0%;
+    padding-top: 0%; 
 }
 
 
