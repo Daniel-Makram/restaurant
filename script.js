@@ -46,8 +46,8 @@ for (let i = 0; i < inputModif.length; i++) {
 
 (function () {
     var setting = {
-        "height": 300,
-        "width": 300,
+        "height": 400,
+        "width": 650,
         "zoom": 17,
         "queryString": "Cantersteen 10, 1000 Brussels, Belgique",
         "place_id": "ChIJHacLzn_Ew0cRsNN0o2hHYy8",
