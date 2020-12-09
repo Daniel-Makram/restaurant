@@ -46,6 +46,14 @@ main{
     border-radius: 3%;
 }
 
+.open{
+   display: flex;
+   margin-left: 250px;
+   margin-top: -3vh;
+   border: 1px solid #EBD133;
+   border-radius: 15%;
+   padding: 3px 10px 3px 10px;
+}
 /* -----------------------END NAV BARRE---------------------- */
 
 
