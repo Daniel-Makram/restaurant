@@ -52,20 +52,21 @@ main{
     background-color: black;
     display: flex;
     flex-direction: row;
+    
 }
 
-.photoPresentation {
+#carouselExampleFade {
     width: 70%;
     height: 70%;
     padding-bottom: 3%;
     padding-left: 2%;
     margin-top: 2%;
+    z-index:0;
 }
-
-.img1 {
-    width: 100%;
+ .img1{
     border-radius: 5%;
-}
+    width: 100%;
+ }
 
 .textPresenation {
     display: flex;
