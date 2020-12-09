@@ -88,10 +88,6 @@ main{
 
 /* --------------------FORMULAIRE------------------------ */
 
-.contact {
-    height: 50vh;
-}
-
 .contact h2{
     font-size: 45px;
     display: flex;
@@ -100,6 +96,7 @@ main{
     justify-content: center;
     margin-bottom: 5%;
     margin-top: 3%;
+    padding-top: 16vh;
 }
 
 .formulaire {
@@ -176,4 +173,27 @@ button{
 
 button:active{
     outline: none;
+}
+
+/* ------------------------FOOTER---------------- */
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color:#EBD133
 }
