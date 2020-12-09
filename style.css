@@ -160,8 +160,7 @@ h1{
 .horaire {
     border: solid white;
     border-radius: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
 }
 
 .contenaire {
