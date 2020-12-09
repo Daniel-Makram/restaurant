@@ -60,8 +60,9 @@ main {
    border: 1px solid #EBD133;
    border-radius: 15%;
    padding: 3px 10px 3px 10px;
+   font-family: 'Staatliches', cursive;
 }
-/* -----------------------END NAV BARRE---------------------- */
+
 
 
 /* ------------------------PRESENTATION------------------------ */
@@ -372,7 +373,6 @@ button:active {
     color: white;
 }
 
-
 a:hover,
 a:focus,
 a:active {
@@ -386,7 +386,6 @@ a:active {
     transition-duration: 2s;
     font-size: 3vh;
     margin-bottom: 1%;
-
 }
 
 .icons-social i:hover {
